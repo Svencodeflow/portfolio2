@@ -1,5 +1,6 @@
 import Navbar from "./Navbar"
 import sven from "../images/mariadb.svg"
+import "../css/about.css"
 
 export default function About() {
     return  (
@@ -10,8 +11,8 @@ export default function About() {
                     <h2>Über mich</h2>
                     <div className="header-text">
                         <h4>Meine Vorweg</h4>
-                        <p>
-                            Ich bin Sven Schlaak, 33 Jahre alt und komme aus
+                            
+                            <p className="title_eins">Ich bin Sven Schlaak, 33 Jahre alt und komme aus
                             Wesel. Ich habe im Winter 2021
                             meine Ausbildung zum Berufskraftfahrer erfolgreich abgeschlossen.
                             Ich merkte jedoch schnell, dass mir dieser Beruf zwar Spaß macht, aber

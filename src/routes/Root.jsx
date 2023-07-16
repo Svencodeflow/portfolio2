@@ -58,7 +58,6 @@ export default function Root() {
             <main id="main">
                 <section className="Skills">
                     <h1>
-                        Mein{" "}
                         <span className="tech_stack skill-style">
                             Techstack
                         </span>
@@ -167,7 +166,7 @@ export default function Root() {
                         <img src={pokeding} alt="Pokemon api seite" />
                     </Link>
                     <h2>
-                        Meine <span className="skill-style">Projekte</span>
+                        <span className="skill-style">Projekte</span>
                     </h2>
                     <Link to="http://moviebovie.svenschlaak.de/">
                         <img src={moviebovie} alt="Movie Datenbank" />
