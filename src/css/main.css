@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,600,800);
+
+.skill-style {
+    font-size: 35px;
+    font-family: "Intro", sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    /* Warning: no fallback */
+
+    background: -webkit-linear-gradient(
+        -86deg,
+        #eef85b 5%,
+        #7aec8d 53%,
+        #09e5c3 91%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 4px transparent;
+    color: #232d2d;
+}
+
+/************************* Header *************************/
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header h1 {
+    font-size: 13em;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin: 0 auto;
+}
+
+.header h2 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 0;
+    margin: 0 auto;
+}
+
+.header p {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+/************************* Main *************************/
+
+#main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.Skills img {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+}
+
+.Skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.skill ul,
+.skill_two ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20%;
+}
+
+.skill li,
+.skill_two li {
+    position: relative;
+    list-style: none;
+}
+
+.skill li:hover p,
+.skill_two li:hover p {
+    opacity: 1;
+}
+
+.skill li p,
+.skill_two li p {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    animation: fadein 1s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.skill_two img {
+    fill: white;
+}
+
+.tech_stack {
+    font-size: 50px;
+}
+
+/************************* Footer *************************/
+
+#footer {
+    width: 100vw;
+    height: 100vh;
+}
+
+.footer_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.footer_text img {
+    width: 300px;
+    height: 300px;
+}

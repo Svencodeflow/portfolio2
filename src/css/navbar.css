@@ -1,0 +1,36 @@
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#navbar li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#description {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logos img {
+    width: 47px;
+    height: 109px;
+    margin: 0 10px;
+}
+
+.line {
+    margin-right: 3vw;
+}
+
+.line a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0 10px;
+}
