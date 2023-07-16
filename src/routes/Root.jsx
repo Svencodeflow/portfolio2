@@ -163,13 +163,13 @@ export default function Root() {
             </main>
             <footer id="footer">
                 <div className="footer_text">
-                    <Link to="https://cosmic-gelato-109e08.netlify.app/">
+                    <Link to="https://www.pokedex.svenschlaak.de">
                         <img src={pokeding} alt="Pokemon api seite" />
                     </Link>
                     <h2>
                         Meine <span className="skill-style">Projekte</span>
                     </h2>
-                    <Link to="https://moviebovie.netlify.app/">
+                    <Link to="http://moviebovie.svenschlaak.de/">
                         <img src={moviebovie} alt="Movie Datenbank" />
                     </Link>
                 </div>

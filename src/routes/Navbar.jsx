@@ -14,14 +14,14 @@ export default function Navbar() {
                         <div className="line">
                             <Link to="/">HOME</Link>
                             <Link to="/Projekte">PROJEKTE</Link>
-                            <Link to="/About">ÜBER MICH</Link>
+                            <Link to="about">ÜBER MICH</Link>
                             <Link to="/Kontakt">KONTAKT</Link>
                         </div>
                         <div className="logos">
                             <Link to="https://github.com/Svencodeflow">
                                 <img src={github} alt="Github Logo" />
                             </Link>
-                            <Link to="www.linkedin.com/in/sven-schlaak">
+                            <Link to="https://www.linkedin.com/in/sven-schlaak">
                                 <img src={linkedin} alt="linkedin Logo" />
                             </Link>
                         </div>
