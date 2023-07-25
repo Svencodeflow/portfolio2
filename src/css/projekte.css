@@ -1,0 +1,15 @@
+.Projekte {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.Projekte_anzeige img {
+  width: 50vw;
+  height: 70vh;
+  object-position: center;
+}
