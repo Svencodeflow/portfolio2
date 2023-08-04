@@ -7,27 +7,33 @@ import Root from "./routes/Root.jsx";
 import Error from "./routes/Error.jsx";
 import About from "./routes/About.jsx";
 import Projekte from "./routes/Projekte.jsx";
+import Kontakt from "./routes/Kontakt";
 
 const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Root />,
-    errorElement: <Error />,
-  },
-  {
-    path: "/about",
-    element: <About />,
-    errorElement: <Error />,
-  },
-  {
-    path: "/projekte",
-    element: <Projekte />,
-    errorElement: <Error />,
-  },
+    {
+        path: "/",
+        element: <Root />,
+        errorElement: <Error />,
+    },
+    {
+        path: "/about",
+        element: <About />,
+        errorElement: <Error />,
+    },
+    {
+        path: "/projekte",
+        element: <Projekte />,
+        errorElement: <Error />,
+    },
+    {
+        path: "/kontakt",
+        element: <Kontakt />,
+        errorElement: <Error />,
+    },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>
+    <React.StrictMode>
+        <RouterProvider router={router} />
+    </React.StrictMode>
 );

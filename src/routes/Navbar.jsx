@@ -13,9 +13,9 @@ export default function Navbar() {
                     <div id="description">
                         <div className="line">
                             <Link to="/">HOME</Link>
-                            <Link to="/Projekte">PROJEKTE</Link>
-                            <Link to="about">ÜBER MICH</Link>
-                            <Link to="/Kontakt">KONTAKT</Link>
+                            <Link to="/projekte">PROJEKTE</Link>
+                            <Link to="/about">ÜBER MICH</Link>
+                            <Link to="/kontakt">KONTAKT</Link>
                         </div>
                         <div className="logos">
                             <Link to="https://github.com/Svencodeflow">

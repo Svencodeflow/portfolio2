@@ -3,7 +3,7 @@ import sven from "../images/mariadb.svg";
 import "../css/about.css";
 import ReactReadMoreReadLess from "react-read-more-read-less";
 
-const longText = `Ich Sven Schlaak, 33 Jahre alt und komme aus Wesel. Ich
+const longText = `Ich Sven Schlaak, 33 Jahre alt alleinerziehender Vater und komme aus Wesel. Ich
 habe im Winter 2021 meine Ausbildung zum Berufskraftfahrer
 erfolgreich abgeschlossen. Ich merkte jedoch schnell, dass
 mir dieser Beruf zwar Spaß macht, aber nicht das ist, was
@@ -40,40 +40,40 @@ Backend wurde Node.js und Express.js verwendet. Alle Projekte sind
 auf GitHub und hier auf der Seite zu finden.`;
 
 export default function About() {
-  return (
-    <div>
-      <Navbar />
-      <article className="header_about">
-        <div className="header-text">
-          <section className="header_text_one">
-            <article>
-              <h4>Meine Vorweg</h4>
-              <ReactReadMoreReadLess
-                charLimit={450}
-                readMoreText={"Read more ▼"}
-                readLessText={"Read less ▲"}
-              >
-                {longText}
-              </ReactReadMoreReadLess>
+    return (
+        <div>
+            <Navbar />
+            <article className="header_about">
+                <div className="header-text">
+                    <section className="header_text_one">
+                        <article>
+                            <h4>Meine Vorweg</h4>
+                            <ReactReadMoreReadLess
+                                charLimit={450}
+                                readMoreText={"Read more ▼"}
+                                readLessText={"Read less ▲"}
+                            >
+                                {longText}
+                            </ReactReadMoreReadLess>
+                        </article>
+                    </section>
+                    <section className="header_text_one">
+                        <article>
+                            <h4>Bootcamp</h4>
+                            <ReactReadMoreReadLess
+                                charLimit={450}
+                                readMoreText={"Read more ▼"}
+                                readLessText={"Read less ▲"}
+                            >
+                                {shortText}
+                            </ReactReadMoreReadLess>
+                        </article>
+                    </section>
+                </div>
+                <div className="header-img">
+                    <img src={sven} alt="Sven Schlaak" />
+                </div>
             </article>
-          </section>
-          <section className="header_text_one">
-            <article>
-              <h4>Bootcamp</h4>
-              <ReactReadMoreReadLess
-                charLimit={450}
-                readMoreText={"Read more ▼"}
-                readLessText={"Read less ▲"}
-              >
-                {shortText}
-              </ReactReadMoreReadLess>
-            </article>
-          </section>
         </div>
-        <div className="header-img">
-          <img src={sven} alt="Sven Schlaak" />
-        </div>
-      </article>
-    </div>
-  );
+    );
 }
