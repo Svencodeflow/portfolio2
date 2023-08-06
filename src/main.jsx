@@ -8,6 +8,7 @@ import Error from "./routes/Error.jsx";
 import About from "./routes/About.jsx";
 import Projekte from "./routes/Projekte.jsx";
 import Kontakt from "./routes/Kontakt";
+import Datenschutz from "./routes/Datenschutz";
 
 const router = createBrowserRouter([
     {
@@ -28,6 +29,11 @@ const router = createBrowserRouter([
     {
         path: "/kontakt",
         element: <Kontakt />,
+        errorElement: <Error />,
+    },
+    {
+        path: "/datenschutz",
+        element: <Datenschutz />,
         errorElement: <Error />,
     },
 ]);

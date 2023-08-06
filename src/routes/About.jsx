@@ -47,11 +47,12 @@ export default function About() {
                 <div className="header-text">
                     <section className="header_text_one">
                         <article>
-                            <h4>Meine Vorweg</h4>
+                            <h2>Meine Vergangenheit</h2>
                             <ReactReadMoreReadLess
                                 charLimit={450}
                                 readMoreText={"Read more ▼"}
                                 readLessText={"Read less ▲"}
+                                readMoreClassName="read-more-less--more"
                             >
                                 {longText}
                             </ReactReadMoreReadLess>
@@ -59,7 +60,7 @@ export default function About() {
                     </section>
                     <section className="header_text_one">
                         <article>
-                            <h4>Bootcamp</h4>
+                            <h2>Bootcamp</h2>
                             <ReactReadMoreReadLess
                                 charLimit={450}
                                 readMoreText={"Read more ▼"}
