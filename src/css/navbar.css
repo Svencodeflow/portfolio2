@@ -24,9 +24,8 @@
     color: #232d2d;
 }
 
-#navbar a:active {
+#navbar a:hover {
     color: white;
-    font-size: 2em;
     margin: 0 10px;
     text-align: center;
     text-transform: uppercase;

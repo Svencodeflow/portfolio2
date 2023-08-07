@@ -34,16 +34,6 @@ export default function Kontakt() {
                             />
                         </div>
                     </div>
-                    <div className="block phone">
-                        <input
-                            id="frm-phone"
-                            type="text"
-                            name="phone"
-                            autoComplete="tel"
-                            placeholder="Telefonnummer"
-                            required
-                        />
-                    </div>
                     <div className="email block">
                         <input
                             id="frm-email"
@@ -59,7 +49,7 @@ export default function Kontakt() {
                             id="frm-message"
                             rows="6"
                             name="message"
-                            width="400px"
+                            width="800px"
                             height="500px"
                             placeholder="Ihre Nachricht an mich..."
                         ></textarea>

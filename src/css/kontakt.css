@@ -79,10 +79,18 @@
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
-    background-color: #f8f8f8;
+    background-color: transparent;
+    color: white;
     font-size: 16px;
     resize: none;
     outline: none;
+    /* test */
+    border-radius: 5px;
+    border: none;
+    border-bottom-style: solid;
+    /* border-color: white; */
+    border-image: linear-gradient(-86deg, #eef85b 5%, #7aec8d 53%, #09e5c3 91%)
+        30;
 }
 
 .container h1 {
