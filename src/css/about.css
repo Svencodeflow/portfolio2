@@ -49,3 +49,17 @@
     color: #232d2d;
     margin-bottom: 10px;
 }
+
+.header-img img {
+    width: 30%;
+    height: 30%;
+    border-radius: 10px;
+    margin-left: 25%;
+}
+
+.header_about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
