@@ -1,5 +1,5 @@
 import Navbar from "./Navbar";
-import sven from "../images/mariadb.svg";
+import sven from "../images/IMG_3907.jpeg";
 import "../css/about.css";
 import ReactReadMoreReadLess from "react-read-more-read-less";
 
@@ -40,41 +40,41 @@ Backend wurde Node.js und Express.js verwendet. Alle Projekte sind
 auf GitHub und hier auf der Seite zu finden.`;
 
 export default function About() {
-    return (
-        <div>
-            <Navbar />
-            <article className="header_about">
-                <div className="header-text">
-                    <section className="header_text_one">
-                        <article>
-                            <h2>Meine Vergangenheit</h2>
-                            <ReactReadMoreReadLess
-                                charLimit={450}
-                                readMoreText={"Read more ▼"}
-                                readLessText={"Read less ▲"}
-                                readMoreClassName="read-more-less--more"
-                            >
-                                {longText}
-                            </ReactReadMoreReadLess>
-                        </article>
-                    </section>
-                    <section className="header_text_one">
-                        <article>
-                            <h2>Bootcamp</h2>
-                            <ReactReadMoreReadLess
-                                charLimit={450}
-                                readMoreText={"Read more ▼"}
-                                readLessText={"Read less ▲"}
-                            >
-                                {shortText}
-                            </ReactReadMoreReadLess>
-                        </article>
-                    </section>
-                </div>
-                <div className="header-img">
-                    <img src={sven} alt="Sven Schlaak" />
-                </div>
+  return (
+    <div>
+      <Navbar />
+      <article className="header_about">
+        <div className="header-text">
+          <section className="header_text_one">
+            <article>
+              <h2>Meine Vergangenheit</h2>
+              <ReactReadMoreReadLess
+                charLimit={450}
+                readMoreText={"Read more ▼"}
+                readLessText={"Read less ▲"}
+                readMoreClassName="read-more-less--more"
+              >
+                {longText}
+              </ReactReadMoreReadLess>
             </article>
+          </section>
+          <section className="header_text_one">
+            <article>
+              <h2>Bootcamp</h2>
+              <ReactReadMoreReadLess
+                charLimit={450}
+                readMoreText={"Read more ▼"}
+                readLessText={"Read less ▲"}
+              >
+                {shortText}
+              </ReactReadMoreReadLess>
+            </article>
+          </section>
         </div>
-    );
+        <div className="header-img">
+          <img src={sven} alt="Sven Schlaak" />
+        </div>
+      </article>
+    </div>
+  );
 }
